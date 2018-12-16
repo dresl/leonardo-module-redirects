@@ -9,7 +9,7 @@ LEONARDO_APPS = [
     'django.contrib.redirects',
 ]
 
-LEONARDO_MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
 ]
 
